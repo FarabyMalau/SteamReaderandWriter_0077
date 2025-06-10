@@ -31,4 +31,5 @@ int main() {
     // menunjuk ke sebuah nama file
     infile.open("data.txt");
 
+    cout << endl << "> = Membuka dan membaca file " << endl;
 }
