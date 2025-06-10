@@ -39,7 +39,7 @@ int main() {
         // membaca file atau melakukan perulangan setiap baris
         while (getline(infile, baris))
         {
-            // menampilkan baris yang telah dibaca disini
+            // dan tampilkan di sini
             cout << baris << '\n';
         }
         // tutup file tersebut setelah selesai
@@ -48,4 +48,4 @@ int main() {
     // jika tidak ditemukan file maka akan menampilkan ini
     else cout << "Unable to open file";
     return 0;
-}
+};
